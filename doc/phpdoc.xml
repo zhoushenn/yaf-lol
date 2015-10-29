@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<phpdocumentor>
+    <title>API文档</title>
+    <parser>
+        <default-package-name>base</default-package-name>
+        <encoding>utf-8</encoding>
+        <target>output/build</target>
+        <markers>
+            <item>TODO</item>
+            <item>FIXME</item>
+        </markers>
+        <extensions>
+            <extension>php</extension>
+            <extension>php3</extension>
+            <extension>phtml</extension>
+        </extensions>
+        <visibility></visibility>
+    </parser>
+    <files>
+        <ignore-hidden>true</ignore-hidden>
+        <ignore-symlinks>true</ignore-symlinks>
+    </files>
+    <transformer>
+        <target>output</target>
+    </transformer>
+    <logging>
+        <level>error</level>
+    </logging>
+    <transformations>
+        <template name="./templates/myclean"/>
+        <!--会把模板自动移到vendor相应data目录下-->
+        <!--<template name="myclean"/>-->
+    </transformations>
+    <translator>
+        <locale>en</locale>
+    </translator>
+</phpdocumentor>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>rbac demo</title>
+</head>
+<body>
+	<h3>添加角色：</h3>
+	<form action="/rbac/addRole" method="post">
+		<input type="text" name="roleName">
+		<input type="text" name="roleDesc">
+		<input type="submit">
+	</form>
+	<h3>添加权限：</h3>
+	<form action="/rbac/addPer" method="post">
+		<input type="text" name="perName">
+		<input type="text" name="perDesc">
+		<input type="submit">
+	</form>
+	<h3>角色绑定权限</h3>
+	选择角色：
+	<select name="" id="">
+		<?php foreach ($roleList as $role): ?>
+			<option value="<?=$role['ID']?>"><?=$role['Title']?></option>
+		<?php endforeach; ?>
+	</select>
+	<br>
+	选择权限：
+	<form action="" id="roles">
+		<?php foreach ($permissionList as $per): ?>
+			<input type="checkbox" name="per[]"><span><?=$per['Title']?></span>
+		<?php endforeach; ?>
+	</form>
+	<h3>用户绑定角色</h3>
+	选择用户：
+	<select name="" id="">
+		<option value="1">小明</option>
+		<option value="2">小红</option>
+	</select>
+	<br>
+	选择角色：
+	<form action="" id="roles">
+		<?php foreach ($roleList as $role): ?>
+			<input type="checkbox" name="roles[]"><span><?=$role['Title']?></span>
+		<?php endforeach; ?>
+	</form>
+</body>
+</html>
