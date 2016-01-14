@@ -1,6 +1,6 @@
 <phpunit bootstrap="autoload.php">
     <testsuites>
-        <testsuite name="MCenterTest">
+        <testsuite name="yaf-lol-test">
             <directory>../test</directory>
         </testsuite>
     </testsuites>

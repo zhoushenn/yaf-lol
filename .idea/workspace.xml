@@ -2,335 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26c46d13-630e-4960-aaa4-88db57a34a35" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/PHP-Console_v3.0.21.crx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/Fixtures/.gitkeep" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/zhouwenlong.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/yaf-lol.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/Bootstrap.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/blls/readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/controllers/Error.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/controllers/Index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/library/readme.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/modules/readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/plugins/Sample.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/error/error.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/index/index.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/composer.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/composer.lock" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/conf/application.ini" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/php-yaf-doc-ide/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/php-yaf-doc-ide/Yaf/Action_Abstract.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/php-yaf-doc-ide/Yaf/Application.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/php-yaf-doc-ide/Yaf/Bootstrap_Abstract.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/php-yaf-doc-ide/Yaf/Config/Ini.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/php-yaf-doc-ide/Yaf/Config/Simple.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/php-yaf-doc-ide/Yaf/Config_Abstract.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/php-yaf-doc-ide/Yaf/Controller_Abstract.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/php-yaf-doc-ide/Yaf/Dispatcher.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/php-yaf-doc-ide/Yaf/Exception.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/php-yaf-doc-ide/Yaf/Exception/DispatchFailed.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/php-yaf-doc-ide/Yaf/Exception/LoadFailed.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/php-yaf-doc-ide/Yaf/Exception/LoadFailed/Action.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/php-yaf-doc-ide/Yaf/Exception/LoadFailed/Controller.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/php-yaf-doc-ide/Yaf/Exception/LoadFailed/Module.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/php-yaf-doc-ide/Yaf/Exception/LoadFailed/View.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/php-yaf-doc-ide/Yaf/Exception/RouterFailed.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/php-yaf-doc-ide/Yaf/Exception/StartupError.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/php-yaf-doc-ide/Yaf/Exception/TypeError.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/php-yaf-doc-ide/Yaf/Loader.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/php-yaf-doc-ide/Yaf/Plugin_Abstract.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/php-yaf-doc-ide/Yaf/Registry.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/php-yaf-doc-ide/Yaf/Request/Http.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/php-yaf-doc-ide/Yaf/Request/Simple.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/php-yaf-doc-ide/Yaf/Request_Abstract.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/php-yaf-doc-ide/Yaf/Response/Cli.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/php-yaf-doc-ide/Yaf/Response/Http.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/php-yaf-doc-ide/Yaf/Response_Abstract.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/php-yaf-doc-ide/Yaf/Route/Regex.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/php-yaf-doc-ide/Yaf/Route/Rewrite.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/php-yaf-doc-ide/Yaf/Route/Simple.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/php-yaf-doc-ide/Yaf/Route/Supervar.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/php-yaf-doc-ide/Yaf/Route_Interface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/php-yaf-doc-ide/Yaf/Route_Static.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/php-yaf-doc-ide/Yaf/Router.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/php-yaf-doc-ide/Yaf/Session.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/php-yaf-doc-ide/Yaf/View/Simple.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/php-yaf-doc-ide/Yaf/View_Interface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/php-yaf-doc-ide/generate_namespaces.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/php-yaf-doc-ide/yaf.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/phpdoc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/runDoc.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/.htaccess" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cli.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/script/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/script/execute.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/autoload.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/phpunit.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/runUT.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/autoload.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/composer/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/.coveralls.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/UPGRADE.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/build.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/build.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/composer.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/ApcCache.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/ApcuCache.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/ArrayCache.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/Cache.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/CacheProvider.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/ChainCache.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/ClearableCache.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/CouchbaseCache.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/FileCache.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/FilesystemCache.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/FlushableCache.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/MemcacheCache.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/MemcachedCache.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/MongoDBCache.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/MultiGetCache.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/MultiPutCache.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/PhpFileCache.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/PredisCache.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/RedisCache.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/RiakCache.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/SQLite3Cache.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/Version.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/VoidCache.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/WinCacheCache.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/XcacheCache.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/ZendDataCache.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/phpunit.xml.dist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/tests/Doctrine/Tests/Common/Cache/ApcCacheTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/tests/Doctrine/Tests/Common/Cache/ApcuCacheTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/tests/Doctrine/Tests/Common/Cache/ArrayCacheTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/tests/Doctrine/Tests/Common/Cache/BaseFileCacheTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/tests/Doctrine/Tests/Common/Cache/CacheProviderTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/tests/Doctrine/Tests/Common/Cache/CacheTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/tests/Doctrine/Tests/Common/Cache/ChainCacheTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/tests/Doctrine/Tests/Common/Cache/CouchbaseCacheTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/tests/Doctrine/Tests/Common/Cache/FileCacheTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/tests/Doctrine/Tests/Common/Cache/FilesystemCacheTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/tests/Doctrine/Tests/Common/Cache/MemcacheCacheTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/tests/Doctrine/Tests/Common/Cache/MemcachedCacheTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/tests/Doctrine/Tests/Common/Cache/MongoDBCacheTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/tests/Doctrine/Tests/Common/Cache/PhpFileCacheTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/tests/Doctrine/Tests/Common/Cache/PredisCacheTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/tests/Doctrine/Tests/Common/Cache/RedisCacheTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/tests/Doctrine/Tests/Common/Cache/RiakCacheTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/tests/Doctrine/Tests/Common/Cache/SQLite3CacheTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/tests/Doctrine/Tests/Common/Cache/VoidCacheTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/tests/Doctrine/Tests/Common/Cache/WinCacheCacheTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/tests/Doctrine/Tests/Common/Cache/XcacheCacheTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/tests/Doctrine/Tests/Common/Cache/ZendDataCacheTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/tests/Doctrine/Tests/DoctrineTestCase.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/tests/travis/php.ini" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/tests/travis/phpunit.travis.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/.php_cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/CHANGELOG.mdown" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/README.mdown" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/composer.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/doc/01-usage.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/doc/02-handlers-formatters-processors.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/doc/03-utilities.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/doc/04-extending.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/doc/sockets.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/phpunit.xml.dist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/ErrorHandler.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Formatter/ChromePHPFormatter.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Formatter/ElasticaFormatter.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Formatter/FlowdockFormatter.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Formatter/FormatterInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Formatter/GelfMessageFormatter.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Formatter/HtmlFormatter.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Formatter/JsonFormatter.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Formatter/LineFormatter.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Formatter/LogglyFormatter.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Formatter/LogstashFormatter.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Formatter/MongoDBFormatter.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Formatter/NormalizerFormatter.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Formatter/ScalarFormatter.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Formatter/WildfireFormatter.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/AbstractHandler.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/AbstractSyslogHandler.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/AmqpHandler.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/BrowserConsoleHandler.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/BufferHandler.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/ChromePHPHandler.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/CouchDBHandler.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/CubeHandler.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/Curl/Util.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/DoctrineCouchDBHandler.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/DynamoDbHandler.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/ElasticSearchHandler.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/ErrorLogHandler.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/FilterHandler.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/FingersCrossed/ActivationStrategyInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/FingersCrossed/ChannelLevelActivationStrategy.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/FingersCrossed/ErrorLevelActivationStrategy.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/FingersCrossedHandler.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/FirePHPHandler.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/FleepHookHandler.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/FlowdockHandler.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/GelfHandler.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/GroupHandler.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/HandlerInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/HipChatHandler.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/IFTTTHandler.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/LogEntriesHandler.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/LogglyHandler.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/MailHandler.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/MandrillHandler.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/MissingExtensionException.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/MongoDBHandler.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/NativeMailerHandler.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/NewRelicHandler.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/NullHandler.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/PHPConsoleHandler.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/PsrHandler.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/PushoverHandler.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/RavenHandler.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/RedisHandler.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/RollbarHandler.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/SamplingHandler.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/SlackHandler.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/SocketHandler.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/SwiftMailerHandler.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/SyslogHandler.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/SyslogUdp/UdpSocket.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/SyslogUdpHandler.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/TestHandler.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/WhatFailureGroupHandler.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/ZendMonitorHandler.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Logger.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Processor/GitProcessor.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Processor/IntrospectionProcessor.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Processor/MemoryPeakUsageProcessor.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Processor/MemoryProcessor.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Processor/MemoryUsageProcessor.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Processor/ProcessIdProcessor.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Processor/PsrLogMessageProcessor.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Processor/TagProcessor.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Processor/UidProcessor.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Processor/WebProcessor.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Registry.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/ErrorHandlerTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Formatter/ChromePHPFormatterTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Formatter/ElasticaFormatterTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Formatter/FlowdockFormatterTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Formatter/GelfMessageFormatterTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Formatter/JsonFormatterTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Formatter/LineFormatterTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Formatter/LogglyFormatterTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Formatter/LogstashFormatterTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Formatter/MongoDBFormatterTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Formatter/NormalizerFormatterTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Formatter/ScalarFormatterTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Formatter/WildfireFormatterTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/AbstractHandlerTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/AbstractProcessingHandlerTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/AmqpHandlerTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/BrowserConsoleHandlerTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/BufferHandlerTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/ChromePHPHandlerTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/CouchDBHandlerTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/DoctrineCouchDBHandlerTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/DynamoDbHandlerTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/ElasticSearchHandlerTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/ErrorLogHandlerTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/FilterHandlerTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/FingersCrossedHandlerTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/FirePHPHandlerTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/FleepHookHandlerTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/FlowdockHandlerTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/GelfHandlerLegacyTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/GelfHandlerTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/GelfMockMessagePublisher.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/GroupHandlerTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/HipChatHandlerTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/LogEntriesHandlerTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/MailHandlerTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/MockRavenClient.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/MongoDBHandlerTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/NativeMailerHandlerTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/NewRelicHandlerTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/NullHandlerTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/PHPConsoleHandlerTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/PsrHandlerTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/PushoverHandlerTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/RavenHandlerTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/RedisHandlerTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/RotatingFileHandlerTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/SamplingHandlerTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/SlackHandlerTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/SocketHandlerTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/StreamHandlerTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/SwiftMailerHandlerTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/SyslogHandlerTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/SyslogUdpHandlerTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/TestHandlerTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/UdpSocketTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/WhatFailureGroupHandlerTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/ZendMonitorHandlerTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/LoggerTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Processor/GitProcessorTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Processor/IntrospectionProcessorTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Processor/MemoryPeakUsageProcessorTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Processor/MemoryUsageProcessorTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Processor/ProcessIdProcessorTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Processor/PsrLogMessageProcessorTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Processor/TagProcessorTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Processor/UidProcessorTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Processor/WebProcessorTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/PsrLogCompatTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/RegistryTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/TestCase.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/psr/log/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/psr/log/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/psr/log/Psr/Log/AbstractLogger.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/psr/log/Psr/Log/InvalidArgumentException.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/psr/log/Psr/Log/LogLevel.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/psr/log/Psr/Log/LoggerAwareInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/psr/log/Psr/Log/LoggerAwareTrait.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/psr/log/Psr/Log/LoggerInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/psr/log/Psr/Log/LoggerTrait.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/psr/log/Psr/Log/NullLogger.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/psr/log/Psr/Log/Test/LoggerInterfaceTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/psr/log/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/psr/log/composer.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yaflol/base/Connection.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yaflol/base/Controller.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yaflol/base/Helper.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yaflol/base/ServiceLocator.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yaflol/swoole/DaemonCreator.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yaflol/swoole/QueenClient.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yaflol/swoole/QueenServer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/PRD.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/blade.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/php.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/yaflol/base/HelperTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yaflol/db/MysqliQuery.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yaflol/db/PdoQuery.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yaflol/db/QueryAbstract.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/yaf-lol.iml" afterPath="$PROJECT_DIR$/.idea/yaf-lol.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.php" afterPath="$PROJECT_DIR$/public/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/autoload.php" afterPath="$PROJECT_DIR$/test/autoload.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/phpunit.xml" afterPath="$PROJECT_DIR$/test/phpunit.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/yaflol/base/Connection.php" afterPath="$PROJECT_DIR$/yaflol/db/Connection.php" />
     </list>
     <ignored path="yaf-lol.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -343,15 +31,100 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/yaf-lol$yafloltest.coverage" NAME="yafloltest Coverage Results" MODIFIED="1452751812721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="PhpCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DatabaseView">
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="MySQL - test@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="cp_user_test" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="MySQL - test@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+  </component>
+  <component name="DockManager">
+    <window id="1">
+      <content type="file-editors">
+        <state>
+          <leaf>
+            <file leaf-file-name="console.sql" pinned="false" current-in-tab="true">
+              <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/919e76f6-4522-4538-9aa2-2a4dd3f227ea/console.sql">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state vertical-scroll-proportion="0.0">
+                    <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+                    <folding />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="yaf-lol" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="QueryAbstract.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yaflol/db/QueryAbstract.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-16.551723">
+              <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MysqliQuery.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yaflol/db/MysqliQuery.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.206897">
+              <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PdoQuery.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/yaflol/db/PdoQuery.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.4379562">
+              <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -362,7 +135,6 @@
         <option value="$PROJECT_DIR$/application/models/Hello.php" />
         <option value="$PROJECT_DIR$/vendor/composer/autoload_real.php" />
         <option value="$PROJECT_DIR$/yfol/ServiceLocator.php" />
-        <option value="$PROJECT_DIR$/public/index.php" />
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/yaflol/base/ServiceLocator.php" />
         <option value="$PROJECT_DIR$/yaflol/base/Config.php" />
@@ -370,6 +142,20 @@
         <option value="$PROJECT_DIR$/application/blls/readme.md" />
         <option value="$PROJECT_DIR$/application/controllers/Index.php" />
         <option value="$PROJECT_DIR$/application/Bootstrap.php" />
+        <option value="$PROJECT_DIR$/public/index.php" />
+        <option value="$PROJECT_DIR$/test/phpunit.xml" />
+        <option value="$PROJECT_DIR$/test/autoload.php" />
+        <option value="$PROJECT_DIR$/test/yaflol/base/HelperTest.php" />
+        <option value="$PROJECT_DIR$/yaflol/db/DbInterface.php" />
+        <option value="dbtable:/a37434ce/919e76f6-4522-4538-9aa2-2a4dd3f227ea/test.cp_user_test" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/919e76f6-4522-4538-9aa2-2a4dd3f227ea/console.sql" />
+        <option value="$PROJECT_DIR$/yaflol/db/Medoo.php" />
+        <option value="$PROJECT_DIR$/yaflol/db/DbQuery.php" />
+        <option value="$PROJECT_DIR$/yaflol/db/MysqliQuery.php" />
+        <option value="$PROJECT_DIR$/yaflol/db/PdoQuery.php" />
+        <option value="$PROJECT_DIR$/yaflol/db/QueryAbstract.php" />
+        <option value="$PROJECT_DIR$/doc/sqltest" />
+        <option value="$PROJECT_DIR$/doc/sql" />
       </list>
     </option>
   </component>
@@ -385,10 +171,29 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 5.5" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
+    <option name="x" value="1432" />
     <option name="y" value="-8" />
     <option name="width" value="1456" />
     <option name="height" value="876" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>PHP</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Code SmellPHP</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -415,7 +220,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -434,27 +238,90 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yaf-lol" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yaf-lol" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yaflol" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yaf-lol" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yaf-lol" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yaflol" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="db" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yaf-lol" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yaf-lol" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="doc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/vendor/autoload.php" />
+    <property name="Console.TableResult.DefaultCopyAction" value="Tab Separated Values (TSV)" />
+    <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\wamp\www\yaf-lol\yaflol\db" />
+      <recent name="F:\wamp\www\yaf-lol\doc" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\wamp\www\yaf-lol\yaflol\db" />
       <recent name="F:\wamp\www\yaf-lol\doc" />
       <recent name="F:\wamp\www\yaf-lol\yaflol" />
       <recent name="F:\wamp\www\yaf-lol\yaflol\base" />
       <recent name="F:\wamp\www\yaf-lol\core" />
-      <recent name="F:\wamp\www\yaf-lol\yfol" />
     </key>
   </component>
-  <component name="RunManager" selected="PHP Web Application.yaflol">
+  <component name="RunManager" selected="PHPUnit.yafloltest">
+    <configuration default="false" name="runUT.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/test/runUT.php">
+      <method />
+    </configuration>
+    <configuration default="false" name="Helper.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/yaflol/base/Helper.php">
+      <method />
+    </configuration>
+    <configuration default="false" name="yafloltest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner directory="$PROJECT_DIR$/test" />
+      <method />
+    </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
@@ -498,11 +365,24 @@
     <configuration default="false" name="yaflol" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" server_name="yaflol">
       <method />
     </configuration>
-    <list size="1">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="PHP Web Application.yaflol" />
+      <item index="1" class="java.lang.String" itemvalue="PHP Script.runUT.php" />
+      <item index="2" class="java.lang.String" itemvalue="PHP Script.Helper.php" />
+      <item index="3" class="java.lang.String" itemvalue="PHPUnit.yafloltest" />
     </list>
+    <recent_temporary>
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="PHPUnit.yafloltest" />
+        <item index="1" class="java.lang.String" itemvalue="PHP Script.Helper.php" />
+        <item index="2" class="java.lang.String" itemvalue="PHP Script.runUT.php" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="26c46d13-630e-4960-aaa4-88db57a34a35" name="Default" comment="" />
@@ -512,26 +392,70 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="yafloltest - 2016.01.14 at 13h 51m 51s.xml">
+      <configuration name="yafloltest" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="yafloltest - 2016.01.14 at 13h 51m 59s.xml">
+      <configuration name="yafloltest" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="yafloltest - 2016.01.14 at 13h 53m 31s.xml">
+      <configuration name="yafloltest" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="yafloltest - 2016.01.14 at 13h 55m 09s.xml">
+      <configuration name="yafloltest" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="yafloltest - 2016.01.14 at 14h 04m 14s.xml">
+      <configuration name="yafloltest" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="yafloltest - 2016.01.14 at 14h 07m 40s.xml">
+      <configuration name="yafloltest" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="yafloltest - 2016.01.14 at 14h 08m 53s.xml">
+      <configuration name="yafloltest" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="yafloltest - 2016.01.14 at 14h 09m 11s.xml">
+      <configuration name="yafloltest" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="yafloltest - 2016.01.14 at 14h 13m 59s.xml">
+      <configuration name="yafloltest" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="yafloltest - 2016.01.14 at 14h 15m 29s.xml">
+      <configuration name="yafloltest" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="876" extended-state="7" />
-    <editor active="false" />
+    <frame x="1432" y="-8" width="1456" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21633238" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17621776" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26647565" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3526245" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39919356" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39838493" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295129" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295129" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -554,12 +478,20 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -568,7 +500,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -576,7 +507,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="6" column="66" selection-start-line="6" selection-start-column="66" selection-end-line="6" selection-end-column="66" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -584,7 +514,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -592,7 +521,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -600,22 +528,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="6" column="54" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="54" />
-          <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.0">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="MultiMarkdownFxPreviewEditor">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../../bin/apache/apache2.4.9/conf/httpd.conf">
@@ -625,19 +538,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/composer/ClassLoader.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3814433">
-          <caret line="277" column="7" selection-start-line="277" selection-start-column="7" selection-end-line="277" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/index/index.phtml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -645,7 +549,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3469388">
           <caret line="145" column="20" selection-start-line="145" selection-start-column="20" selection-end-line="145" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -653,7 +556,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.65014577">
           <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -661,53 +563,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.17492712">
           <caret line="6" column="68" selection-start-line="6" selection-start-column="68" selection-end-line="6" selection-end-column="68" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29154518">
-          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40816328">
-          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yaflol/base/ServiceLocator.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26239067">
-          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/blls/readme.md">
+      <provider editor-type-id="MultiMarkdownFxPreviewEditor">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor vertical-scroll-proportion="0.0">
             <caret line="0" column="7" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
-            <folding />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="MultiMarkdownFxPreviewEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yaflol/base/Helper.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17492712">
-          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -715,23 +583,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.5172415">
           <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/conf/application.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yaflol/base/Connection.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="41.86207">
-          <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -739,15 +590,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-11.034483">
           <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/Bootstrap.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="12.413794">
-          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -755,6 +597,221 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.20408164">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="MultiMarkdownFxPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="0.06069803">
+            <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/PRD.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/Bootstrap.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.26239067">
+          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/cli.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/autoload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23357664">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/runUT.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20437956">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/phpunit.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17518248">
+          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23357664">
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/phpunit/phpunit/src/Framework/Assert.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.41616768">
+          <caret line="504" column="0" selection-start-line="504" selection-start-column="0" selection-end-line="504" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/composer/ClassLoader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38622755">
+          <caret line="302" column="0" selection-start-line="302" selection-start-column="0" selection-end-line="302" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/application.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/php-yaf-doc-ide/Yaf/Config_Abstract.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35766423">
+          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/php-yaf-doc-ide/Yaf/Config/Ini.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.6642336">
+          <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/php-yaf-doc-ide/Yaf/Dispatcher.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4058394">
+          <caret line="126" column="7" selection-start-line="126" selection-start-column="7" selection-end-line="126" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/php-yaf-doc-ide/Yaf/Request/Simple.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.78486997">
+          <caret line="107" column="1" selection-start-line="107" selection-start-column="1" selection-end-line="107" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yaflol/base/Helper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.62069">
+          <caret line="24" column="56" selection-start-line="24" selection-start-column="56" selection-end-line="24" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/yaflol/base/HelperTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5839416">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yaflol/base/ServiceLocator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.15328467">
+          <caret line="62" column="45" selection-start-line="62" selection-start-column="45" selection-end-line="62" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://PHP/\yol\db\DbInterface">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>PHP</ID>
+          <OriginalElement>\yol\db\DbInterface</OriginalElement>
+          <nodes>
+            <node x="" y="">\yol\db\DbInterface</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="84.0" y="-5.5" />
+          <SelectedNodes />
+          <Categories />
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/a37434ce/919e76f6-4522-4538-9aa2-2a4dd3f227ea/test.cp_user_test">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.52554744">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yaflol/db/Connection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.12554744">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/919e76f6-4522-4538-9aa2-2a4dd3f227ea/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yaflol/db/QueryAbstract.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.551723">
+          <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yaflol/db/MysqliQuery.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.206897">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.40816328">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yaflol/db/PdoQuery.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4379562">
+          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
           <folding />
         </state>
       </provider>

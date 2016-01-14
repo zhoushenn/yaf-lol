@@ -16,7 +16,7 @@ define('APP_ANALYZE', false);
 define('APP_MICROTIME_START', microtime(true));
 define('APP_MEMORY_START', memory_get_usage());
 require APPLICATION_PATH . '/vendor/autoload.php';
-$application = new Yaf\Application( APPLICATION_PATH . "/conf/application.ini");
 
+$application = new Yaf\Application( APPLICATION_PATH . "/conf/application.ini");
 $application->bootstrap()->run();
 

@@ -1,0 +1,16 @@
+SELECT name,id,email from cp_user_test;
+SELECT DISTINCT name,id,email from cp_user_test;
+SELECT max(id) from cp_user_test;
+SELECT * from cp_user_test
+where id>100 and id>200 GROUP BY id HAVING id>1 LIMIT 1,2;
+
+SELECT * from cp_user_test
+  INNER  JOIN cp_user_test as b on b.name = cp_user_test.name
+  where b.name = 'xx'
+  limit 1;
+
+update cp_user_test set name='xx',pwd='bb' WHERE name='xx';
+
+delete from cp_user_test where name='xx';
+
+insert cp_user_test(name) values('bbss');
