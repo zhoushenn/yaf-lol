@@ -4,6 +4,7 @@ class IndexController extends Yaf\Controller_Abstract
 
     public function indexAction()
     {
+
         return true;
 
     }
