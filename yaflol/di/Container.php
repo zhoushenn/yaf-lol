@@ -1,17 +1,16 @@
 <?php
-namespace yol\base;
+namespace yol\di;
 
 use InvalidArgumentException;
 
 /**
- * 服务定位器
- * 实现简单的服务定位器，没有提供依赖注入（影响性能，感觉没必要）
+ * 容器
  *
- * @package yol\base
+ * @package yol\di
  * @author zhoushen <445484792@qq.com>
  * @since 1.0
  */
-class ServiceLocator{
+class Container{
 
     protected $_components; //保存组件实例
     protected $_definitions; //保存组件定义
