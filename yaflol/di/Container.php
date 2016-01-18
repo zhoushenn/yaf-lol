@@ -4,7 +4,7 @@ namespace yol\di;
 use InvalidArgumentException;
 
 /**
- * 容器
+ * 服务容器
  *
  * @package yol\di
  * @author zhoushen <445484792@qq.com>

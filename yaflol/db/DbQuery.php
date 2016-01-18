@@ -2,91 +2,130 @@
 namespace yol\db;
 /**
  * DbQuery查询构造组件
- * 
- * $query = new DbQuery(new PDO(...));
- * $query->from()->join()->join()->where()->group()->order()->limit()->select();
+ *
+ * @example:
+ * $query = new DbQuery( new Connection(...) );
+ * $result = $query->from()->join()->join()->where()->group()->order()->limit()->select();
+ *
+ * @package: yol\db
  * @author: zhouwenlong
  * @since: 2016/1/14
  */
 class DbQuery
 {
+    /**
+     * @var array sql语句
+     */
     protected $stack = [];
-    private $db;
+    /**
+     * @var \yol\db\Connection 数据库连接管理（代理pdo）
+     */
+    private $connection;
+    /**
+     * @var array 执行过的sql
+     */
     public $logs = [];
 
-    public function __construct(\PDO $db)
+    /**
+     * DbQuery constructor.
+     * @param Connection $connection
+     */
+    public function __construct(\yol\db\Connection $connection)
     {
-        $this->db = $db;
+        $this->connection = $connection;
     }
 
     public function quote($str)
     {
-        return $this->db->quote($str);
+        return $this->connection->quote($str);
     }
 
+    public function stackToString()
+    {
+        return implode(' ', $this->stack);
+    }
+
+    public function log()
+    {
+        return $this->logs;
+    }
+
+    /**
+     * 查询sql
+     * @return \PDOStatement
+     */
     public function select()
     {
-        $sql = implode(' ', $this->stack);
+        $sql = $this->stackToString();
         $this->logs[] = $sql;
-        return $this->db->query($sql);
+        return $this->connection->query($sql);
     }
 
+    /**
+     * 执行sql
+     * @return int
+     */
     public function execute()
     {
-        $sql = implode(' ', $this->stack);
+        $sql = $this->stackToString();
         $this->logs[] = $sql;
-        return $this->db->exec($sql);
+        return $this->connection->exec($sql);
     }
 
-    protected function from($table, array $fields)
+    public function from($table, array $fields)
     {
+        $this->stack = [];
         $this->stack[] = sprintf('SELECT %s FROM %s', implode(',', $fields), $table);
         return $this;
     }
 
-    protected function join($table, $joinType, $condition = 'onConditionString')
+    public function join($table, $joinType, $onString)
     {
-        $this->stack[] = sprintf('%s %s ON %s', strtoupper($joinType), $table, $condition);
+        $this->stack[] = sprintf('%s %s ON %s', strtoupper($joinType), $table, $onString);
         return $this;
     }
 
-    protected function update($table, array $sets)
+    public function update($table, array $sets)
     {
+        $this->stack = [];
         $this->stack[] = sprintf('UPDATE %s %s', $table, $this->setCondition($sets));
         return $this;
     }
 
-    protected function delete($table)
+    public function delete($table)
     {
+        $this->stack = [];
         $this->stack[] = sprintf('DELETE FROM %s', $table);
         return $this;
     }
 
-    protected function insert($table, array $fields)
+    public function insert($table, array $fields)
     {
+        $this->stack = [];
         $this->stack[] = sprintf('INSERT INTO %s(%s)', $table, implode(',', $fields));
         return $this;
     }
 
-    protected function replace($table, array $fields)
+    public function replace($table, array $fields)
     {
+        $this->stack = [];
         $this->stack[] = sprintf('REPLACE INTO %s(%s)', $table, implode(',', $fields));
         return $this;
     }
 
-    protected function values(array $values)
+    public function values(array $values)
     {
         $this->stack[] = sprintf( 'VALUES(%s)', implode( ',', array_map([$this, 'quote'], $values) ) );
         return $this;
     }
 
-    protected function set(array $sets)
+    public function set(array $sets)
     {
         $this->stack[] = sprintf( 'SET %s', implode( ',', array_map([$this, 'quote'], $sets) ) );
         return $this;
     }
 
-    protected function where(array $where)
+    public function where(array $where)
     {
         $whereString = '';
         foreach($where as $field => $valueField){
@@ -109,19 +148,19 @@ class DbQuery
         return $this;
     }
 
-    protected function group(array $group)
+    public function group(array $group)
     {
         $this->stack[] = sprintf('GROUP BY %s', implode(',', $group));
         return $this;
     }
 
-    protected function order(array $group)
+    public function order(array $group)
     {
         $this->stack[] = sprintf('ORDER BY %s', implode(',', $group));
         return $this;
     }
 
-    protected function limit(array $limit)
+    public function limit(array $limit)
     {
         $this->stack[] = sprintf('LIMIT %s', implode(',', $limit));
         return $this;

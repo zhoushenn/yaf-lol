@@ -1,11 +1,11 @@
 <?php
-namespace Core;
+namespace yol\db;
 
 use PDO;
 /**
  * Mysql数据库连接类，实现读写分离
  *
- * @package Core
+ * @package yol\db
  * @author zhoushen
  * @since 1.0
  */
@@ -30,6 +30,11 @@ class Connection{
 
     const MASTER_NAME = 'master';
     const SLAVE_NAME  = 'slave';
+    /**
+     * 标记为使用主库
+     * @var array
+     */
+    protected $methodUseMaster = ['exec'];
 
     /**
      * @param array $dbConfig 数据库配置
@@ -40,7 +45,7 @@ class Connection{
     }
 
     /**
-     * 调用pdo对象方法
+     * 代理PDO对象方法
      *
      * @param $name pdo方法
      * @param array $arguments
@@ -49,7 +54,7 @@ class Connection{
     function __call($name, $arguments=[])
     {
         //medoo这些方法用主库
-        if( in_array($name, ['exec', 'insert', 'update', 'delete', 'replace', 'action']) ){
+        if( in_array($name, $this->methodUseMaster) ){
             $this->dbType = self::MASTER_NAME;
         }else{
             $this->dbType = self::SLAVE_NAME;
@@ -84,12 +89,27 @@ class Connection{
         $config = $config[mt_rand(0, count($config) - 1)];
         $config = array_merge($config, $this->dbConfig['share']);
 
-        $db = new Medoo($config);
+        $dsn = sprintf('%s:host=%s;dbname=%s;charset=%s',
+            $config['dbtype'],
+            $config['server'],
+            $config['dbname'],
+            $config['charset']);
+        $db = new PDO($dsn, $config['username'], $config['password']);
 
         $this->dbInfo['dbType'] = $type;
         $this->dbInfo['dbConfig'] = $config;
 
         return $this->dbPools[$type] = $db;
+    }
+
+    public function getDbInfo()
+    {
+        return $this->dbInfo;
+    }
+
+    public function getDbPools()
+    {
+        return $this->dbPools;
     }
 
     /**

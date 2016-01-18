@@ -1,5 +1,5 @@
 <?php
-namespace Core\swoole;
+namespace yol\swoole;
 
 use Exception;
 use swoole_server;
