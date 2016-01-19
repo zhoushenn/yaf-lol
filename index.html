@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Yaf-lol by loncool</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">Yaf-lol</h1>
+      <h2 class="project-tagline">yaf框架增强， 添加一些基础组件，使yaf能更快速简单地应用到真实的项目开发中。</h2>
+      <a href="https://github.com/loncool/yaf-lol" class="btn">View on GitHub</a>
+      <a href="https://github.com/loncool/yaf-lol/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/loncool/yaf-lol/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
+
+    <section class="main-content">
+      <h2>
+<a id="yaf-lol" class="anchor" href="#yaf-lol" aria-hidden="true"><span class="octicon octicon-link"></span></a>yaf-lol</h2>
+
+<p>yaf框架增强， 添加一些基础组件，使yaf能更快速简单地应用到真实的项目开发中。</p>
+
+<h2>
+<a id="增强特新" class="anchor" href="#%E5%A2%9E%E5%BC%BA%E7%89%B9%E6%96%B0" aria-hidden="true"><span class="octicon octicon-link"></span></a>增强特新</h2>
+
+<ol>
+<li>基于PDO的轻量级数据库访问组件，并提供读写分离
+<code>php
+    $query = new DbQuery( new Connection(...) );
+    $query-&gt;from()-&gt;join()-&gt;where()-&gt;group()-&gt;order()-&gt;limit()-&gt;select();
+</code>
+</li>
+<li>
+<p>简单的服务容器</p>
+
+<p>在bootstrap中统一管理服务组件</p>
+
+<div class="highlight highlight-text-html-php"><pre><span class="pl-s1">    <span class="pl-k">public</span> <span class="pl-k">function</span> <span class="pl-en">_initService</span>(<span class="pl-c1">Yaf\</span><span class="pl-c1">Dispatcher</span> <span class="pl-smi">$dispatcher</span>){</span>
+<span class="pl-s1">        <span class="pl-smi">$container</span> <span class="pl-k">=</span> <span class="pl-c1">yol\di\</span><span class="pl-c1">Container</span><span class="pl-k">::</span>getInstance();</span>
+<span class="pl-s1">        <span class="pl-smi">$container</span><span class="pl-k">-&gt;</span>set(<span class="pl-s"><span class="pl-pds">'</span>db<span class="pl-pds">'</span></span>, <span class="pl-k">function</span>(){</span>
+<span class="pl-s1">           <span class="pl-k">return</span> <span class="pl-k">new</span> <span class="pl-c1">yol\db\</span><span class="pl-c1">DbQuery</span>( <span class="pl-k">new</span> <span class="pl-c1">yol\db\</span><span class="pl-c1">Connection</span>(<span class="pl-smi">$this</span><span class="pl-k">-&gt;</span><span class="pl-smi">appConfig</span>[<span class="pl-s"><span class="pl-pds">'</span>db<span class="pl-pds">'</span></span>]) );</span>
+<span class="pl-s1">        });</span>
+<span class="pl-s1"></span>
+<span class="pl-s1">    }</span></pre></div>
+</li>
+<li>框架基础业务封装组件（基类控制器，基类模型，辅助Helper类）</li>
+<li>提供一些插件(phpconsole调试插件,布局插件,xhprof性能分析插件)</li>
+<li>
+<p>提供简单易用的验证组件，可以方便实现数据验证。</p>
+
+<p>model层的数据验证</p>
+
+<div class="highlight highlight-text-html-php"><pre><span class="pl-s1"><span class="pl-k">class</span> <span class="pl-en">UserModel</span> <span class="pl-k">extends</span> <span class="pl-c1">yol\base\</span><span class="pl-e">Model</span></span>
+<span class="pl-s1">{</span>
+<span class="pl-s1">    <span class="pl-k">public</span> <span class="pl-k">function</span> <span class="pl-en">rules</span>()</span>
+<span class="pl-s1">    {</span>
+<span class="pl-s1">        <span class="pl-k">return</span> [</span>
+<span class="pl-s1">          <span class="pl-s"><span class="pl-pds">'</span>name|用户名<span class="pl-pds">'</span></span>    <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">'</span>require|maxlen(20)<span class="pl-pds">'</span></span>,</span>
+<span class="pl-s1">          <span class="pl-s"><span class="pl-pds">'</span>email|用户邮箱<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">'</span>require|email<span class="pl-pds">'</span></span>,</span>
+<span class="pl-s1">        ];</span>
+<span class="pl-s1">    }</span>
+<span class="pl-s1">}</span></pre></div>
+
+<p>独立使用验证器</p>
+
+<div class="highlight highlight-text-html-php"><pre><span class="pl-s1"><span class="pl-smi">$v</span> <span class="pl-k">=</span> <span class="pl-k">new</span> <span class="pl-c1">\yol\validator\</span><span class="pl-c1">Validator</span>();</span>
+<span class="pl-s1"><span class="pl-smi">$v</span><span class="pl-k">-&gt;</span>validate(<span class="pl-smi">$post</span>, <span class="pl-smi">$rules</span>);</span></pre></div>
+</li>
+<li>整合phpunit、phpdocumentor、composer</li>
+<li>提供swoole异步队列组件</li>
+<li>MVC增加一层Bll业务逻辑层
+业务逻辑从控制器剥离出来，可以更好的测试代码和逻辑复用。</li>
+<li>定义错误处理方式
+使用异常处理错误，减少不必要的代码</li>
+</ol>
+
+<h2>
+<a id="安装" class="anchor" href="#%E5%AE%89%E8%A3%85" aria-hidden="true"><span class="octicon octicon-link"></span></a>安装</h2>
+
+<p>目前只提供开发版本
+clone github代码然后运行composer install</p>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/loncool/yaf-lol">Yaf-lol</a> is maintained by <a href="https://github.com/loncool">loncool</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
+    </section>
+
+  
+  </body>
+</html>
