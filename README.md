@@ -8,6 +8,7 @@ yaf框架增强， 添加一些基础组件，使yaf能更快速简单地应用�
         $query->from()->join()->where()->group()->order()->limit()->select();
     ```
 2. 简单的服务容器
+    
     在bootstrap中统一管理服务组件
     ```php
         public function _initService(Yaf\Dispatcher $dispatcher){
@@ -21,6 +22,7 @@ yaf框架增强， 添加一些基础组件，使yaf能更快速简单地应用�
 3. 框架基础业务封装组件（基类控制器，基类模型，辅助Helper类）
 4. 提供一些插件(phpconsole调试插件,布局插件,xhprof性能分析插件)
 5. 提供简单易用的验证组件，可以方便实现数据验证。
+
     model层的数据验证
     ```php
     class UserModel extends yol\base\Model
