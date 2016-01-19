@@ -1,4 +1,5 @@
 <?php
+namespace yol\validator;
 /**
  * built in验证规则类，
  * 需要添加自己类的时候继承一个
@@ -52,6 +53,15 @@ class Rules{
 
 		return '不是有效的日期时间格式';
 	}
+
+    public static function valid_email($value)
+    {
+        if( filter_var($value, FILTER_VALIDATE_EMAIL) ){
+            return true;
+        }
+
+        return '不是有效的邮箱格式';
+    }
 
 	public static function valid_mobile($value){
 		if( preg_match('/^(?:13|15|18)[0-9]{9}$/', $value) ){

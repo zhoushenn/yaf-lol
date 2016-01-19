@@ -2,16 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26c46d13-630e-4960-aaa4-88db57a34a35" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/models/Hello.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yaflol/base/Model.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yaflol/validator/Rules.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yaflol/validator/Validator.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yaflol/validator/ValidatorException.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yaflol/web/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/blls/User.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/models/User.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/error/showmsg.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/yaflol/validator/RulesTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/yaflol/validator/ValidatorTest.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/models/Hello.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/conf/test.ini" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/Error.php" afterPath="$PROJECT_DIR$/application/controllers/Error.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/Index.php" afterPath="$PROJECT_DIR$/application/controllers/Index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/error/error.phtml" afterPath="$PROJECT_DIR$/application/views/error/error.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/index/index.phtml" afterPath="$PROJECT_DIR$/application/views/index/index.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conf/application.ini" afterPath="$PROJECT_DIR$/conf/application.ini" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yaflol/base/Controller.php" afterPath="$PROJECT_DIR$/yaflol/base/Controller.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yaflol/db/Connection.php" afterPath="$PROJECT_DIR$/yaflol/db/Connection.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yaflol/db/DbQuery.php" afterPath="$PROJECT_DIR$/yaflol/db/DbQuery.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yaflol/base/Helper.php" afterPath="$PROJECT_DIR$/yaflol/base/Helper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yaflol/base/Model.php" afterPath="$PROJECT_DIR$/yaflol/base/Model.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yaflol/db/DbException.php" afterPath="$PROJECT_DIR$/yaflol/db/DbException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yaflol/validator/Rules.php" afterPath="$PROJECT_DIR$/yaflol/validator/Rules.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yaflol/validator/Validator.php" afterPath="$PROJECT_DIR$/yaflol/validator/Validator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yaflol/validator/ValidatorException.php" afterPath="$PROJECT_DIR$/yaflol/validator/ValidatorException.php" />
     </list>
     <ignored path="yaf-lol.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -74,15 +85,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/vendor/composer/autoload_real.php" />
-        <option value="$PROJECT_DIR$/yfol/ServiceLocator.php" />
-        <option value="$PROJECT_DIR$/composer.json" />
-        <option value="$PROJECT_DIR$/yaflol/base/ServiceLocator.php" />
-        <option value="$PROJECT_DIR$/yaflol/base/Config.php" />
-        <option value="$PROJECT_DIR$/yaflol/base/Helper.php" />
-        <option value="$PROJECT_DIR$/application/blls/readme.md" />
-        <option value="$PROJECT_DIR$/public/index.php" />
-        <option value="$PROJECT_DIR$/test/phpunit.xml" />
         <option value="$PROJECT_DIR$/test/yaflol/base/HelperTest.php" />
         <option value="$PROJECT_DIR$/yaflol/db/DbInterface.php" />
         <option value="dbtable:/a37434ce/919e76f6-4522-4538-9aa2-2a4dd3f227ea/test.cp_user_test" />
@@ -90,18 +92,15 @@
         <option value="$PROJECT_DIR$/yaflol/db/Medoo.php" />
         <option value="$PROJECT_DIR$/doc/sqltest" />
         <option value="$PROJECT_DIR$/doc/sql" />
-        <option value="$PROJECT_DIR$/yaflol/db/DbException.php" />
         <option value="$PROJECT_DIR$/yaflol/db/QueryAbstract.php" />
         <option value="$PROJECT_DIR$/yaflol/db/DbalInterface.php" />
         <option value="$PROJECT_DIR$/yaflol/db/QueryInterface.php" />
         <option value="$PROJECT_DIR$/yaflol/db/MysqliQuery.php" />
         <option value="$PROJECT_DIR$/yaflol/db/PdoQuery.php" />
-        <option value="$PROJECT_DIR$/application/controllers/Index.php" />
         <option value="$PROJECT_DIR$/test/autoload.php" />
         <option value="$PROJECT_DIR$/test/yaflol/db/PdoQueryTest.php" />
         <option value="$PROJECT_DIR$/yaflol/db/QueryBuilder.php" />
         <option value="$PROJECT_DIR$/conf/test.ini" />
-        <option value="$PROJECT_DIR$/conf/application.ini" />
         <option value="$PROJECT_DIR$/test/yaflol/db/DbQueryTest.php" />
         <option value="$PROJECT_DIR$/yaflol/di/Container.php" />
         <option value="$PROJECT_DIR$/test/yaflol/db/ConnectionTest.php" />
@@ -115,14 +114,27 @@
         <option value="$PROJECT_DIR$/application/Bootstrap.php" />
         <option value="$PROJECT_DIR$/yaflol/components/readme.md" />
         <option value="$PROJECT_DIR$/yaflol/web/readme.md" />
-        <option value="$PROJECT_DIR$/yaflol/base/Controller.php" />
         <option value="$PROJECT_DIR$/application/models/Hello.php" />
-        <option value="$PROJECT_DIR$/yaflol/db/Connection.php" />
-        <option value="$PROJECT_DIR$/yaflol/validator/ValidatorException.php" />
         <option value="$PROJECT_DIR$/yaflol/validator/Filters.php" />
-        <option value="$PROJECT_DIR$/yaflol/validator/Rules.php" />
         <option value="$PROJECT_DIR$/yaflol/db/DbQuery.php" />
+        <option value="$PROJECT_DIR$/test/yaflol/validator/RulesTest.php" />
+        <option value="$PROJECT_DIR$/yaflol/validator/ValidatorException.php" />
+        <option value="$PROJECT_DIR$/yaflol/validator/Rules.php" />
         <option value="$PROJECT_DIR$/yaflol/validator/Validator.php" />
+        <option value="$PROJECT_DIR$/test/yaflol/validator/ValidatorTest.php" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/yaflol/db/Connection.php" />
+        <option value="$PROJECT_DIR$/yaflol/base/Helper.php" />
+        <option value="$PROJECT_DIR$/yaflol/db/DbException.php" />
+        <option value="$PROJECT_DIR$/yaflol/base/Controller.php" />
+        <option value="$PROJECT_DIR$/conf/application.ini" />
+        <option value="$PROJECT_DIR$/application/views/error/error.phtml" />
+        <option value="$PROJECT_DIR$/application/views/index/index.phtml" />
+        <option value="$PROJECT_DIR$/application/controllers/Error.php" />
+        <option value="$PROJECT_DIR$/application/views/error/showmsg.phtml" />
+        <option value="$PROJECT_DIR$/application/controllers/Index.php" />
+        <option value="$PROJECT_DIR$/application/models/User.php" />
+        <option value="$PROJECT_DIR$/application/blls/User.php" />
         <option value="$PROJECT_DIR$/yaflol/base/Model.php" />
       </list>
     </option>
@@ -188,6 +200,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -206,45 +220,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yaf-lol" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yaf-lol" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yaflol" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yaf-lol" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yaf-lol" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/test/yaflol/db" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/test/yaflol/validator" />
     <property name="Console.TableResult.DefaultCopyAction" value="Tab Separated Values (TSV)" />
     <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
   </component>
@@ -263,7 +247,7 @@
       <recent name="F:\wamp\www\yaf-lol\doc" />
     </key>
   </component>
-  <component name="RunManager" selected="PHPUnit.yafloltest">
+  <component name="RunManager" selected="PHPUnit.ValidatorTest">
     <configuration default="false" name="runUT.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/test/runUT.php">
       <method />
     </configuration>
@@ -272,6 +256,14 @@
     </configuration>
     <configuration default="false" name="yafloltest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner directory="$PROJECT_DIR$/test" />
+      <method />
+    </configuration>
+    <configuration default="false" name="RulesTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="RulesTest" file="$PROJECT_DIR$/test/yaflol/validator/RulesTest.php" scope="Class" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ValidatorTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="ValidatorTest" file="$PROJECT_DIR$/test/yaflol/validator/ValidatorTest.php" scope="Class" />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -317,17 +309,21 @@
     <configuration default="false" name="yaflol" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" server_name="yaflol">
       <method />
     </configuration>
-    <list size="4">
+    <list size="6">
       <item index="0" class="java.lang.String" itemvalue="PHP Web Application.yaflol" />
       <item index="1" class="java.lang.String" itemvalue="PHP Script.runUT.php" />
       <item index="2" class="java.lang.String" itemvalue="PHP Script.Helper.php" />
       <item index="3" class="java.lang.String" itemvalue="PHPUnit.yafloltest" />
+      <item index="4" class="java.lang.String" itemvalue="PHPUnit.RulesTest" />
+      <item index="5" class="java.lang.String" itemvalue="PHPUnit.ValidatorTest" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="PHPUnit.yafloltest" />
-        <item index="1" class="java.lang.String" itemvalue="PHP Script.runUT.php" />
-        <item index="2" class="java.lang.String" itemvalue="PHP Script.Helper.php" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="PHPUnit.ValidatorTest" />
+        <item index="1" class="java.lang.String" itemvalue="PHPUnit.RulesTest" />
+        <item index="2" class="java.lang.String" itemvalue="PHPUnit.yafloltest" />
+        <item index="3" class="java.lang.String" itemvalue="PHP Script.runUT.php" />
+        <item index="4" class="java.lang.String" itemvalue="PHP Script.Helper.php" />
       </list>
     </recent_temporary>
   </component>
@@ -342,38 +338,45 @@
       <option name="number" value="Default" />
       <updated>1452735215936</updated>
     </task>
+    <task id="LOCAL-00001" summary="blabla">
+      <created>1453180674628</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1453180674628</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="yafloltest - 2016.01.18 at 18h 33m 47s.xml">
-      <configuration name="yafloltest" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="ValidatorTest - 2016.01.19 at 13h 41m 56s.xml">
+      <configuration name="ValidatorTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="yafloltest - 2016.01.18 at 18h 34m 29s.xml">
-      <configuration name="yafloltest" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="ValidatorTest - 2016.01.19 at 13h 42m 16s.xml">
+      <configuration name="ValidatorTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="yafloltest - 2016.01.18 at 18h 39m 11s.xml">
-      <configuration name="yafloltest" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="ValidatorTest - 2016.01.19 at 13h 42m 54s.xml">
+      <configuration name="ValidatorTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="yafloltest - 2016.01.18 at 19h 07m 20s.xml">
-      <configuration name="yafloltest" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="ValidatorTest - 2016.01.19 at 13h 44m 04s.xml">
+      <configuration name="ValidatorTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="yafloltest - 2016.01.18 at 19h 08m 48s.xml">
-      <configuration name="yafloltest" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="ValidatorTest - 2016.01.19 at 13h 47m 28s.xml">
+      <configuration name="ValidatorTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="yafloltest - 2016.01.18 at 19h 10m 23s.xml">
-      <configuration name="yafloltest" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="ValidatorTest - 2016.01.19 at 13h 47m 48s.xml">
+      <configuration name="ValidatorTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="yafloltest - 2016.01.18 at 19h 10m 28s.xml">
-      <configuration name="yafloltest" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="ValidatorTest - 2016.01.19 at 13h 48m 29s.xml">
+      <configuration name="ValidatorTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="yafloltest - 2016.01.18 at 19h 10m 50s.xml">
-      <configuration name="yafloltest" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="ValidatorTest - 2016.01.19 at 13h 48m 48s.xml">
+      <configuration name="ValidatorTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="yafloltest - 2016.01.18 at 19h 11m 16s.xml">
-      <configuration name="yafloltest" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="ValidatorTest - 2016.01.19 at 13h 49m 03s.xml">
+      <configuration name="ValidatorTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="yafloltest - 2016.01.18 at 19h 12m 30s.xml">
-      <configuration name="yafloltest" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="ValidatorTest - 2016.01.19 at 13h 49m 16s.xml">
+      <configuration name="ValidatorTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -389,9 +392,9 @@
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19484241" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19770774" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26647565" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -399,10 +402,11 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295129" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="false" show_stripe_button="true" weight="1.0" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="1432" y="-8" width="1456" height="876" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36069986" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="522" y="200" width="639" height="507" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295129" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -410,6 +414,29 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39838493" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295129" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36069986" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="522" y="200" width="639" height="507" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295129" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19770774" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26647565" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39838493" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -422,6 +449,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="blabla" />
+    <option name="LAST_COMMIT_MESSAGE" value="blabla" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <option name="time" value="10" />
@@ -429,36 +460,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/Bootstrap.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="54" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../bin/apache/apache2.4.9/conf/httpd.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.092437">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/index/index.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doc/php-yaf-doc-ide/Yaf/Application.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3469388">
-          <caret line="145" column="20" selection-start-line="145" selection-start-column="20" selection-end-line="145" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/blls/readme.md" />
-    <entry file="file://$PROJECT_DIR$/README.md" />
     <entry file="file://$PROJECT_DIR$/doc/PRD.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -517,13 +518,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.52554744">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/doc/sql">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.40816328">
@@ -542,6 +536,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -559,24 +554,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/conf/test.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.084033616">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/yaflol/db/DbQueryTest.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="4.137931">
           <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/yaflol/base/HelperTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26277372">
-          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -598,13 +579,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5328467">
           <caret line="26" column="7" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/conf/application.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.57983196">
-          <caret line="29" column="23" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -636,19 +611,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yaflol/components/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.0">
-            <caret line="0" column="4" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="MultiMarkdownFxPreviewEditor">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.1459854">
@@ -667,13 +629,6 @@
       </provider>
       <provider editor-type-id="MultiMarkdownFxPreviewEditor">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yaflol/plugins/Layout.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26277372">
-          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/yaflol/plugins/Xhprof.php">
@@ -697,109 +652,217 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/Bootstrap.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.67153287">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/Error.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23357664">
-          <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/Index.php">
+    <entry file="file://$PROJECT_DIR$/test/yaflol/base/HelperTest.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.26277372">
           <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yaflol/base/Helper.php">
+    <entry file="file://$PROJECT_DIR$/test/yaflol/validator/RulesTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.34306568">
-          <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+        <state vertical-scroll-proportion="0.49635038">
+          <caret line="17" column="61" selection-start-line="17" selection-start-column="61" selection-end-line="17" selection-end-column="61" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yaflol/db/Connection.php">
+    <entry file="file://$PROJECT_DIR$/yaflol/validator/Rules.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.25547445">
-          <caret line="91" column="57" selection-start-line="91" selection-start-column="57" selection-end-line="91" selection-end-column="57" />
+        <state vertical-scroll-proportion="1.1094891">
+          <caret line="62" column="27" selection-start-line="62" selection-start-column="27" selection-end-line="62" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yaflol/db/DbException.php">
+    <entry file="file://$PROJECT_DIR$/test/yaflol/validator/ValidatorTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2919708">
-          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yaflol/db/DbQuery.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.0072992">
-          <caret line="104" column="66" selection-start-line="104" selection-start-column="66" selection-end-line="104" selection-end-column="66" />
-          <folding>
-            <marker date="1453179727194" expanded="true" signature="2405:2422" placeholder="SELECT %s FR..." />
-            <marker date="1453179727194" expanded="true" signature="2965:2979" placeholder="DELETE FROM ..." />
-            <marker date="1453179727194" expanded="true" signature="3137:3155" placeholder="INSERT INTO ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yaflol/base/Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.4827585">
-          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
-          <folding />
+        <state vertical-scroll-proportion="0.55474454">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/yaflol/validator/Validator.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44963503">
-          <caret line="73" column="49" selection-start-line="73" selection-start-column="49" selection-end-line="73" selection-end-column="49" />
+        <state vertical-scroll-proportion="1.4671533">
+          <caret line="100" column="13" selection-start-line="100" selection-start-column="13" selection-end-line="100" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yaflol/components/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="0.0">
+            <caret line="0" column="4" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="MultiMarkdownFxPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_psr4.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.18248175">
+          <caret line="8" column="43" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yaflol/base/Helper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.80875915">
+          <caret line="60" column="34" selection-start-line="60" selection-start-column="34" selection-end-line="60" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/Bootstrap.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.67153287">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.49635038">
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/autoload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20437956">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yaflol/plugins/Layout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23357664">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/yaflol/validator/ValidatorException.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23357664">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-          <folding>
-            <element signature="e#6#53#0#PHP" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.26277372">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yaflol/validator/Rules.php">
+    <entry file="file://$PROJECT_DIR$/application/views/index/index.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.5182482">
-          <caret line="52" column="29" selection-start-line="52" selection-start-column="29" selection-end-line="52" selection-end-column="29" />
+        <state vertical-scroll-proportion="0.1459854">
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/error/error.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.05839416">
+          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/error/showmsg.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="38" selection-start-line="0" selection-start-column="38" selection-end-line="0" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yaflol/base/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.60145986">
+          <caret line="32" column="9" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yaflol/db/Connection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.42627737">
+          <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yaflol/db/DbException.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11678832">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/Error.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20437956">
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.52554744">
+          <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/Index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3211679">
+          <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/application.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.30252102">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/blls/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.05839416">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/yaflol/base/Model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23357664">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        <state vertical-scroll-proportion="1.6934307">
+          <caret line="58" column="28" selection-start-line="58" selection-start-column="28" selection-end-line="58" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/Hello.php">
+    <entry file="file://$PROJECT_DIR$/yaflol/db/DbQuery.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37956205">
-          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-          <folding />
+        <state vertical-scroll-proportion="0.46986303">
+          <caret line="126" column="5" selection-start-line="126" selection-start-column="5" selection-end-line="126" selection-end-column="5" />
+          <folding>
+            <marker date="1453179727194" expanded="true" signature="2405:2422" placeholder="SELECT %s FR..." />
+            <marker date="1453179727194" expanded="true" signature="2965:2979" placeholder="DELETE FROM ..." />
+            <marker date="1453179727194" expanded="true" signature="3137:3155" placeholder="INSERT INTO ..." />
+          </folding>
         </state>
       </provider>
     </entry>

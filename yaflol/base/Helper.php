@@ -57,7 +57,7 @@ class Helper
         }
 
         $config = new Yaf\Config\Ini($configPath . '/' . $configName . '.ini', $section);
-        Yaf\Registry::set($configName . $section, $config);
-        return $config;
+        Yaf\Registry::set($configName . $section, $config->toArray());
+        return $config->toArray();
     }
 }

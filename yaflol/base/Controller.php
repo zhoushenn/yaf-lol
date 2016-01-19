@@ -1,5 +1,6 @@
 <?php
 namespace yol\base;
+use Zend\Stdlib\Exception\LogicException;
 
 /**
  * 基类控制器，实现常用控制器方法，xss clean、设置布局 etc
@@ -11,13 +12,14 @@ namespace yol\base;
 abstract class Controller extends \Yaf\Controller_Abstract{
 
     /**
-     * @var string 信息提示模板
+     * @var string 信息提示模板。
      */
     public $defaultMsgTemplate = 'error/showmsg.phtml';
     /**
-     * @var string 布局文件
+     * @var string 布局文件。
      */
     public $layout;
+
 
     public function init()
     {
@@ -29,6 +31,7 @@ abstract class Controller extends \Yaf\Controller_Abstract{
         if($this->layout){
             $this->setLayout($this->layout);
         }
+
     }
 
     /**
@@ -93,7 +96,8 @@ abstract class Controller extends \Yaf\Controller_Abstract{
      * @param int $timeOut
      * @return bool
      */
-    public function showMsg($msg, $toUrl = null, $timeOut = 3 ,$template = null){
+    public function showMsg($msg, $toUrl = null, $timeOut = 3 ,$template = null)
+    {
         if(!$template) $template = $this->defaultMsgTemplate;
         $this->getView()->display($template,
                                     [

@@ -84,14 +84,16 @@ class Validator{
 				}
 				$callback = 'valid_' . $callback;
 				if( ! method_exists($this->rulesClassName, $callback) ){
-					throw new ArtValidatorException($this->rulesClassName.'类不存在验证规则');
+					throw new ValidatorException(
+                        sprintf('%s 类不存在验证规则 %s', $this->rulesClassName, $callback)
+                    );
 				}
 				$result = call_user_func_array(array($this->rulesClassName, $callback), $args);
 				if($result === true){ 
 					continue;
 				}
 				if($this->throwException){
-					throw new ArtValidatorException( $fieldCN . $result );
+					throw new ValidatorException( $fieldCN . $result );
 				}
 
 				$this->validError[$field] = $fieldCN . $result;

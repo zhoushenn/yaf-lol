@@ -12,7 +12,7 @@
   "autoload":{
     "psr-4":{
       "yol\\" : "yaflol/",
-      "bll\\" : "application/bll/"
+      "bll\\" : "application/blls/"
     }
   }
 }
