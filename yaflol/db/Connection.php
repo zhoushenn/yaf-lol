@@ -74,7 +74,7 @@ class Connection{
     public function getPDO($type){
 
         if( ! in_array ($type, array(self::MASTER_NAME, self::SLAVE_NAME) ) ){
-            throw new Exception("Invalid db type");
+            throw new DbException("Invalid db type");
         }
 
         if($type == self::SLAVE_NAME && !isset($this->dbConfig[$type])){
@@ -95,6 +95,7 @@ class Connection{
             $config['dbname'],
             $config['charset']);
         $db = new PDO($dsn, $config['username'], $config['password']);
+        $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
         $this->dbInfo['dbType'] = $type;
         $this->dbInfo['dbConfig'] = $config;

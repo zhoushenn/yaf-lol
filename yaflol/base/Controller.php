@@ -1,5 +1,5 @@
 <?php
-namespace Core;
+namespace yol\base;
 
 /**
  * 基类控制器，实现常用控制器方法，xss clean、设置布局 etc

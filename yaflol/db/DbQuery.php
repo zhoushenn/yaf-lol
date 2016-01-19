@@ -37,7 +37,8 @@ class DbQuery
 
     public function quote($str)
     {
-        return $this->connection->quote($str);
+        $pdo = $this->connection->getPDO(Connection::SLAVE_NAME);
+        return $pdo->quote($str);
     }
 
     public function stackToString()
@@ -51,6 +52,37 @@ class DbQuery
     }
 
     /**
+     * 原生sql语句执行
+     * @param $sql prepare语句
+     * @param array $bindParams 参数
+     * @return bool
+     */
+    public function execRaw($sql, array $bindParams)
+    {
+        $pdo = $this->connection->getPDO(Connection::MASTER_NAME);
+        $stm = $pdo->prepare($sql);
+        return $stm->execute($bindParams);
+    }
+
+    /**
+     * 原生sql语句查询
+     * @param $sql prepare语句
+     * @param array $bindParams 参数
+     * @return bool
+     */
+    public function queryRaw($sql, array $bindParams)
+    {
+        $pdo = $this->connection->getPDO(Connection::SLAVE_NAME);
+        $stm = $pdo->prepare($sql);
+        $result = $stm->execute($bindParams);
+        if($result === false){
+            return false;
+        }
+        return $stm;
+    }
+
+
+    /**
      * 查询sql
      * @return \PDOStatement
      */
@@ -58,7 +90,8 @@ class DbQuery
     {
         $sql = $this->stackToString();
         $this->logs[] = $sql;
-        return $this->connection->query($sql);
+        $pdo = $this->connection->getPDO(Connection::SLAVE_NAME);
+        return $pdo->query($sql);
     }
 
     /**
@@ -69,7 +102,8 @@ class DbQuery
     {
         $sql = $this->stackToString();
         $this->logs[] = $sql;
-        return $this->connection->exec($sql);
+        $pdo = $this->connection->getPDO(Connection::MASTER_NAME);
+        return $pdo->exec($sql);
     }
 
     public function from($table, array $fields)
