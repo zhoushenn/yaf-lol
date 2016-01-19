@@ -28,11 +28,11 @@
 <a id="增强特新" class="anchor" href="#%E5%A2%9E%E5%BC%BA%E7%89%B9%E6%96%B0" aria-hidden="true"><span class="octicon octicon-link"></span></a>增强特新</h2>
 
 <ol>
-<li>基于PDO的轻量级数据库访问组件，并提供读写分离
-<code>php
-    $query = new DbQuery( new Connection(...) );
-    $query-&gt;from()-&gt;join()-&gt;where()-&gt;group()-&gt;order()-&gt;limit()-&gt;select();
-</code>
+<li>
+<p>基于PDO的轻量级数据库访问组件，并提供读写分离</p>
+
+<div class="highlight highlight-text-html-php"><pre><span class="pl-s1">    <span class="pl-smi">$query</span> <span class="pl-k">=</span> <span class="pl-k">new</span> <span class="pl-c1">DbQuery</span>( <span class="pl-k">new</span> <span class="pl-c1">Connection</span>(<span class="pl-k">...</span>) );</span>
+<span class="pl-s1">    <span class="pl-smi">$query</span><span class="pl-k">-&gt;</span>from()<span class="pl-k">-&gt;</span>join()<span class="pl-k">-&gt;</span>where()<span class="pl-k">-&gt;</span>group()<span class="pl-k">-&gt;</span>order()<span class="pl-k">-&gt;</span>limit()<span class="pl-k">-&gt;</span>select();</span></pre></div>
 </li>
 <li>
 <p>简单的服务容器</p>
